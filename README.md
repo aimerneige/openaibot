@@ -1,0 +1,2 @@
+# openaibot
+WeChat openai bot
