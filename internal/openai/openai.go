@@ -67,6 +67,7 @@ func init() {
 		if response == "" {
 			return
 		}
+		response = strings.Replace(response, "LINE_BREAK", "\n", -1)
 		ctx.Send(response)
 	})
 	engine.UseMidHandler(common.DefaultSpeedLimit)
